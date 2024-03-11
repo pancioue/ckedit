@@ -16,9 +16,9 @@ _edit.blade.php_
 
   <!-- footer 額外script -->
   <x-slot name="footer">
-    <script src="{{ asset('manager-rsrc/js/libraries/ckeditor.js') }}" defer></script>
+    <script src="{{ asset('js/libraries/ckeditor.js') }}" defer></script>
     <!-- todo 可改名content為block,符合service與controller -->
-    <script src="{{ asset('manager-rsrc/js/subsystems/topicPage/pages/layouts/positions/contents/blocks/edit.js') }}"></script>
+    <script src="{{ asset('js/edit.js') }}"></script>
   </x-slot>
 </x-app-layout>
 ```
